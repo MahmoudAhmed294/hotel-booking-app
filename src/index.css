@@ -2,7 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
-.contianer{
-    max-width: 1400px;
+.contianer {
+  @apply mx-auto p-4 max-w-[1400px];
 }

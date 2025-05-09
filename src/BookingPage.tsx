@@ -6,7 +6,7 @@ const BookingPage: React.FC = () => {
     useContext(BookingContext);
 
   return (
-    <div className='contianer mx-auto p-4'>
+    <div className='contianer'>
       {" "}
       {/* BUG: "container" misspelled */}
       <div className='grid grid-cols-2 gap-4'>
